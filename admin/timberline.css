@@ -1,0 +1,304 @@
+/* mom and pop */
+html, body {
+	font-family: 'HelveticaNeue','Helvetica Neue','Arial',sans-serif;
+	background: #000;
+	color: #fff;
+}
+body {
+    padding-bottom: 50px;
+}
+
+
+/* links */
+a:link {
+    
+}
+a:visited {
+    
+}
+a:hover {
+    
+}
+a:active {
+    
+}
+
+
+/* headings */
+h1 {
+	
+}
+h2 {
+	
+}
+h3 {
+	font-size: 200%;
+	margin: 0; padding: 0;
+}
+
+/* universal styles */
+.imaged span { display: none; }
+.clearer { clear: both; }
+.grow { font-size: 125%; }
+
+
+/* containers */
+#container {
+	width: 700px;
+	margin: 0 auto;
+}
+
+
+/* header */
+#navigation ul {
+	display: table;
+	margin: 1em auto;
+	width: auto;
+}
+#navigation li {
+	display: table-cell;
+	padding: 0 1em;
+}
+#navigation a {
+	font: 125% arial, sans-serif;
+	color: #999;
+	text-decoration: none;
+} 
+#navigation a:hover {
+	color: #fff;
+}
+#navigation a.selected { 
+	color: #fff; 
+	font-weight: bold; 
+}
+#logo { 
+    background: url("images/logo.jpg");
+    width: 511px;
+    height: 185px;
+    float: left;
+}
+#tagline {
+	float: right;
+	width: 180px;
+	position: relative; 
+	font-size: 150%;
+	top: 5em;
+}
+#callToAction {
+	padding: 0.5em 0;
+	text-align: center;
+	background: #fff;
+	color: #000;
+	font-size: 150%;
+}
+
+
+/* main */
+.greenBorder {
+	border: solid 5px #66f500;
+	padding: 20px 10px;
+	background: #fff;
+	color: #000;
+	margin: 1em 0;
+}
+.column {
+	width: 48%;
+	padding: 0 1%;
+	float: left;
+}
+.grayButton {
+	width: 322px;
+	display: block;
+	text-align: center;
+	margin: 0 auto;
+	background: #bfbfbf;
+	color: #000;
+	font: 150% arial,sans-serif;
+	font-style: italic;
+	text-decoration: none;
+	padding: 0.5em 0;
+}
+ul.spacedlis li {
+	margin-bottom: 1em;
+}
+#zipcodes {
+	width: 100%;
+	text-align: center;
+	border: solid 3px #000;
+	margin: 1em 0;
+}
+#zipcodes td, #zipcodes th {
+	padding: 0 0.25em;
+	border: 0 none;
+}
+#zipcodes .city {
+	background: #000;
+	color: #fff;
+}
+.blackBorder {
+	border: solid 2px #000;
+	padding: 3px;
+	margin: 1em 0 2em;
+}
+.blackBorder p {
+	margin: 0;
+}
+.blackButton {
+	background: #000;
+	color: #fff;
+	font-size: 200%;
+	font-style: italic;
+	display: block;
+	text-align: center;
+	padding: 0;
+}
+.greenBg {
+	background: #91de3f;
+	color: #000;
+	text-align: center;
+}
+
+/* lawn care */
+.grayBorder {
+	border: solid 2px #999;
+	padding: 3px;
+	margin: 1em 0 2em;
+	text-align: center;
+}
+.grayBorder ul, 
+.grayBorder ol {
+	text-align: left;
+	margin-left: 4em;
+}
+#instructions {
+	width: 75%;
+	margin: 0 auto 2em;
+	background: #eaffe6;
+	color: #000;
+	border: solid 3px #fff;
+	text-align: center;
+}
+#instructions ol {
+
+}
+#instructions h4 {
+	background: #000;
+	color: #fff;
+}
+#instructions table {
+	width: 100%;
+}
+
+/* landscaping */
+#landscapingPrices {
+	border: solid 3px #666;
+	padding: 3px;
+	text-align: center;
+}
+#landscapingPrices p {
+	margin: 0;
+	background: #fff;
+	color: #000;
+}
+#landscapingPrices h4 {
+	background: #fff; color: #000;
+	font-size: 180%;
+	font-style: italic;
+}
+#landscapingPrices h5 {
+	font-size: 140%;
+	font-weight: bold;
+}
+
+/* gallery */
+.comingsoon {
+	color: #fff;
+	width: 322px;
+	display: block;
+	text-align: center;
+	margin: 3em auto 6em;
+	background: #727272;
+	font: 200% arial,sans-serif;
+	font-style: italic;
+	padding: 0.5em 0;
+}
+
+/* about */
+.grayBg {
+	padding: 1em;
+	background: #616161;
+}
+.grayBg img {
+	text-align: center;
+	margin: 1em auto;
+	border: solid 3px #00f;
+}
+.grayBg img + img {
+	border: 0 none;
+}
+.grayBg h4 {
+	font-size: 200%;
+	font-style: italic;
+	text-align: center;
+	text-decoration: underline;
+}
+.grayBg .column {
+	width: 38%;
+}
+.grayBg .column.greenBorder {
+	width: 56%;
+}
+
+/* tos */
+h3.blackTitle {
+	background: #000;
+	color: #fff;
+	font-size: 225%;
+	text-align: center;
+	margin-bottom: 1em;
+	font-style: italic;
+}
+
+/* links */
+h3.whiteTitle {
+	background: #fff;
+	color: #000;
+	font-size: 225%;
+	text-align: center;
+	margin: 1em 0;
+	font-style: italic;
+}
+.linkBox {
+	background: #000;
+	color: #fff;
+	margin: 1em;
+}
+.linkBox a {
+	display: block;
+	color: #fff;
+}
+.referred {
+	font-size: 125%;
+	margin: 2em 0;
+	text-align: center;
+}
+img.centered {
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+}
+
+/* footer */
+#footer {
+	font-size: 90%;
+	text-align: center;
+	background: #fff;
+	color: #000;
+	padding: 0.25em;
+	font-weight: bold;
+	letter-spacing: 0px;
+}
+#footer p {
+	margin: 0;
+	padding: 0;
+}

@@ -1,0 +1,75 @@
+html, body {
+	background: #000; color: #fff;
+	font-family: 'Helvetica Neue', arial, sans-serif;
+}
+
+
+#container {
+	width: 700px; margin: 0 auto;
+}
+
+
+#navigation ul {
+	text-align: center; width: 600px; margin: 0 auto;
+	height: 35px; line-height: 35px; font-family: arial, sans-serif;
+}
+#navigation ul li {
+	list-style-type: none;
+	float: left; width: 20%;
+}
+#navigation a { color: #a1a1a1; text-decoration: none; }
+#navigation a:hover { color: #eee; text-decoration: none; }
+#navigation a.selected { color: #fff; font-weight: bold; }
+#navigation a.selected:hover { color: #fff; font-weight: bold; }
+
+
+#header {
+	position: relative;
+}
+#supportingText {
+	width: 150px; position: absolute;
+	bottom: 0; left: 520px;  
+	font: 150% 'HelveticaNeue-CondensedBlack','Helvetica Neue','Helvetica Neue Black Condensed','Arial',sans-serif
+}
+
+
+#tagline {
+	background: #fff; color: #000;
+	text-align: center; font-size: 115%;
+	padding: 5px 0;
+}
+
+form table { margin: 1em auto 0; font-size: 90%; }
+form table colgroup .col1 { width: 200px; }
+form table colgroup .col2 { width: 300px; }
+
+form table tr td {
+	padding: 5px 5px 8px;
+	vertical-align: top; 
+}
+
+form table tr td label {
+	display: block;
+	text-align: right;
+}
+form table tr td p label {
+	width: 70px; display: inline-block;
+	text-align: left;
+}
+form table span.instruct {
+	display: block;
+	text-align:right;
+	font-size:9px;
+}
+form table h4 {
+	text-transform:uppercase;
+	margin-top: 2em;
+}
+
+
+#footer {
+	text-align: center; font-size: 75%;
+	font-weight: bold; margin: 2em 0;
+	background: #fff; color: #000; 
+	}
+#footer p { margin-bottom: 0.25em; }

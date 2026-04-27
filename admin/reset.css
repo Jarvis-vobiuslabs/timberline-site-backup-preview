@@ -1,0 +1,146 @@
+/**********************************************************************************************
+	
+	RESET.CSS by nickelleon
+	A collection of various CSS techniques merged into a custom suite. Provides a starting 
+	point for a consistent CSS experience between multiple browsers. 
+	
+	Thanks goes to: 
+		Yahoo Developer Network (http://developer.yahoo.com/yui/license.html)
+		Erec Meyer (http://meyerweb.com/eric/tools/css/reset/)
+		
+ **********************************************************************************************/
+ 
+ 
+/***	strip the browser's default CSS 	***/
+html { color:#000; background:#FFF; }
+
+body { margin:0; padding:0; }
+div { margin:0; padding:0; }
+dl,dt,dd,ul,ol,li { margin:0; padding:0; }
+h1,h2,h3,h4,h5,h6 { margin:0; padding:0; }
+pre,code { margin:0; padding:0; }
+form,fieldset,legend,input,textarea { margin:0; padding:0; }
+p,blockquote,th,td { margin:0; padding:0; }
+
+table {	border-collapse:collapse; border-spacing:0; }
+
+fieldset,img { border:0; }
+
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; }
+
+li { list-style:none; }
+
+caption,th { text-align:left; }
+
+h1,h2,h3,h4,h5,h6 { font-size:100%;	font-weight:normal; }
+
+blockquote,q { quotes: none; }
+blockquote:before,blockquote:after,q:before,q:after { content:''; content:none; }
+
+abbr,acronym { border:0; font-variant:normal; }
+
+sup { vertical-align:text-top; }
+sub { vertical-align:text-bottom; }
+
+input,textarea,select { 
+	font-family:inherit;
+	font-size:inherit;
+	font-weight:inherit;	
+}
+
+legend { color:#000; }
+
+ins,del { text-decoration:none; }
+
+body { 
+	font:13px/1.231 arial,helvetica,clean,sans-serif;
+	line-height: 1.4;
+}
+
+select,input,button,textarea { font:99% arial,helvetica,clean,sans-serif; }
+
+table { font-size: inherit; font-size: 100%; }
+
+pre,code,kbd,samp,tt { 
+	font-family:monospace;
+	line-height:100%;
+}
+
+/***	provide a browser-independent starting point for CSS 	***/
+h1 {
+	/*18px*/
+	font-size:138.5%;  
+}
+h2 {
+	/*16px*/
+	font-size:123.1%; 
+}
+h3 {
+	/*14px*/
+	font-size:108%;  
+}
+h1,h2,h3 {
+	/* top & bottom margin based on font size */
+	margin:1em 0;
+}
+h1,h2,h3,h4,h5,h6,strong {
+	/*bringing boldness back to headers and the strong element*/
+	font-weight:bold; 
+}
+abbr,acronym {
+	/*indicating to users that more info is available */
+	border-bottom:1px dotted #000;
+	cursor:help;
+}
+em {
+	/*bringing italics back to the em element*/
+	font-style:italic;
+}
+del {
+	text-decoration:line-through;
+}
+blockquote,ul,ol,dl {
+	/*giving blockquotes and lists room to breath*/
+	margin:1em;
+}
+ol,ul,dl {
+	/*bringing lists on to the page with breathing room */
+	margin-left:2em;
+}
+ol li {
+	/*giving OL's LIs generated numbers*/
+	list-style:decimal outside;	
+}
+ul li {
+	/*giving UL's LIs generated disc markers*/
+	list-style:disc outside;
+}
+dl dd {
+	/*giving DL's DDs breathing room*/
+	margin-left:1em;
+}
+th,td {
+	/*borders and padding to make the table readable*/
+	border:1px solid #000;
+	padding:.5em;
+}
+th {
+	/*distinguishing table headers from data cells*/
+	font-weight:bold;
+	text-align:center;
+}
+caption {
+	/*coordinated margin to match cell's padding*/
+	margin-bottom:.5em;
+	/*centered so it doesn't blend in to other content*/
+	text-align:center;
+}
+p,fieldset,table,pre {
+	/*so things don't run into each other*/
+	margin-bottom:1em;
+}
+/* setting a consistent width, 160px; 
+   control of type=file still not possible */
+input[type=text],input[type=password],textarea {
+	width:12.25em;
+}

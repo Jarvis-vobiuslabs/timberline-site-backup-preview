@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "Timberline Admin"
+AuthUserFile "/home/timberli/.htpasswds/public_html/admin/passwd"
+require valid-user

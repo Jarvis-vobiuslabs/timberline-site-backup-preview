@@ -1,0 +1,37 @@
+/* IE-specific supplemental reset CSS */
+input,textarea,select { 
+	font-size:100%;
+}
+
+body {
+	font-size:small;
+	font:x-small;
+}
+
+pre,code,kbd,samp,tt { 
+	font-size:108%;
+}
+
+input[type=text],input[type=password],textarea {
+	width:11.9em;
+}
+/***************************************/
+
+#ie6Warning {
+	border-bottom: solid 3px #000;
+	padding: 1em 3em;
+	background: #ffc;
+	color: #000;
+}
+#ie6Warning h2 {
+	margin: 0;
+}
+
+#navigation {
+	width: 700px;
+}
+#navigation li {
+	float: left;
+	width: 110px;
+	text-align: center;
+}
