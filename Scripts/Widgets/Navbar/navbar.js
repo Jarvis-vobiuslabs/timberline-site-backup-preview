@@ -9,7 +9,7 @@ function NavBar(instanceID)
 {var depthPrefix=this.preferenceForKey("path-to-root");if(!depthPrefix||depthPrefix=="")
 depthPrefix="./";this.xml_feed=depthPrefix+"?webdav-method=truthget&depth=infinity&ns=iweb&filterby=in-navbar";}
 else
-{this.xml_feed="feed.xml";if(this.sitePath)
+{this.xml_feed="feed.xml?_="+(new Date().getTime());if(this.sitePath)
 {this.xml_feed=this.sitePath+"/"+this.xml_feed;}}
 this.changedPreferenceForKey("navbar-css");this.regenerate();}}
 NavBar.prototype=new Widget();NavBar.prototype.constructor=NavBar;NavBar.prototype.widgetIdentifier="com-apple-iweb-widget-NavBar";NavBar.prototype.regenerate=function()
