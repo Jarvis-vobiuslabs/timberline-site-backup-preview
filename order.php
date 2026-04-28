@@ -59,7 +59,7 @@
     </div>
     
 	<div id="header">
-    	<h1><img src="http://timberlinelawnandlandscape.com/Home_files/droppedImage.jpg" alt="Timberline Lawn and Landscape" /></h1>
+    	<h1><img src="Home_files/droppedImage.jpg" alt="Timberline Lawn and Landscape" /></h1>
     	<div id="supportingText">
     		<p>No <br />complicated <br />estimates!</p>
     	</div>
@@ -216,7 +216,7 @@
 											<option value="large"<? if($_SESSION['lcs-lotsize'] == "large") echo " selected"; ?>>12,001 - 16,000 sq. ft.</option>
 											<option value="maximum"<? if($_SESSION['lcs-lotsize'] == "maximum") echo " selected"; ?>>16,001 - 20,000 sq. ft.</option>
 										</select></p>
-										<p><a href="http://timberlinelawnandlandscape.com/Lawn_Care.html" target="_blank">view price chart</a></p>
+										<p><a href="Lawn_Care.html" target="_blank">view price chart</a></p>
 									</div>
 									
 									<div id="service-details-lcb">
@@ -351,7 +351,7 @@
 			            
 					<tr>
 						<td colspan="2" class="center">
-							<p><input type="checkbox" name="agreement" /> I agree to the <a href="http://timberlinelawnandlandscape.com/Terms_of_Service.html" target="_blank">terms of service</a>.</p>
+							<p><input type="checkbox" name="agreement" /> I agree to the <a href="Terms_of_Service.html" target="_blank">terms of service</a>.</p>
 							<input name="button" type="submit" id="button" value="Submit Order" />
 						</td>
 					</tr>

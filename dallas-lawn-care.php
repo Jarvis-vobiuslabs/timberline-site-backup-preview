@@ -135,7 +135,7 @@ $cta = "<span  id=\"paragraph_style_1\"><img src='images/dallas-lawn-care.jpg'><
 			</div>-->
      
 <!--<div class="tinyText" style="height: 35px; left: 500px; position: absolute; top: 700px; width: 268px; z-index: 1; border:2px solid silver;">
-            <img usemap="#map1" id="shapeimage_2" src="images/shapeimage_1.png" style="border: none; height: 50px; left: -7px; position: absolute; top: -7px; width: 280px; z-index: 1; " alt="Click to Order Service" title="" /><map name="map1" id="map1"><area href="http://www.timberlinelawnandlandscape.com/order.php" title="http://www.timberlinelawnandlandscape.com/order.php" alt="http://www.timberlinelawnandlandscape.com/order.php" coords="7, 7, 275, 42" /></map>
+            <img usemap="#map1" id="shapeimage_2" src="images/shapeimage_1.png" style="border: none; height: 50px; left: -7px; position: absolute; top: -7px; width: 280px; z-index: 1; " alt="Click to Order Service" title="" /><map name="map1" id="map1"><area href="Order_Service.html" title="Order_Service.html" alt="Order_Service.html" coords="7, 7, 275, 42" /></map>
           </div>-->
           
           

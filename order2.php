@@ -138,7 +138,7 @@
 
 	<div id="header">
 
-    	<h1><img src="https://timberlinelawnandlandscape.com/images/logo.jpg" alt="Timberline Lawn and Landscape" /></h1>
+    	<h1><img src="images/logo.jpg" alt="Timberline Lawn and Landscape" /></h1>
 
     	<div id="supportingText">
 
@@ -498,7 +498,7 @@
 
 										</select></p>
 
-										<p><a href="http://timberlinelawnandlandscape.com/Lawn_Care.html" target="_blank">view price chart</a></p>
+										<p><a href="Lawn_Care.html" target="_blank">view price chart</a></p>
 
 									</div>
 
@@ -538,7 +538,7 @@
 
 										<p><label for="lcb-price">Price:</label>$<input type="text" name="lcb-price" value="<? echo $_SESSION['lcb-price']; ?>" /> (e.g. 25)</p>
 
-										<p><a href="http://timberlinelawnandlandscape.com/Lawn_Care.html" target="_blank">view price chart</a></p>
+										<p><a href="Lawn_Care.html" target="_blank">view price chart</a></p>
 
 										<p><label for="calendar">Start Date:</label><input type="text" id="calendar" name="calendar" value="<? echo $_SESSION['calendar']; ?>" /></p>
 
@@ -790,7 +790,7 @@
 
 						<td colspan="2" class="center">
 
-							<p><input type="checkbox" name="agreement"<? if($_SESSION['agreement']) echo " checked=\"checked\""; ?> /> I agree to the <a href="http://timberlinelawnandlandscape.com/Terms_of_Service.html" target="_blank">terms of service</a>.</p>
+							<p><input type="checkbox" name="agreement"<? if($_SESSION['agreement']) echo " checked=\"checked\""; ?> /> I agree to the <a href="Terms_of_Service.html" target="_blank">terms of service</a>.</p>
 
 							<p><input type="submit" name="submit" id="submit" value="Submit Order" /></p>
 
