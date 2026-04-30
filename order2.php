@@ -138,7 +138,7 @@
 
 	<div id="header">
 
-    	<h1><img src="images/logo.jpg" alt="Timberline Lawn and Landscape" /></h1>
+    	<h1><img src="images/logo.png" alt="Timberline Lawn and Landscape" style="max-width:260px;height:auto;" /></h1>
 
     	<div id="supportingText">
 
