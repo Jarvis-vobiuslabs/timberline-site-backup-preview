@@ -11,7 +11,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Timberline Lawn and Landscape [Order Service] | 214.557.6975 | Mowing the North Dallas and surrounding areas!</title>
+		<title>Timberline Lawn and Landscape [Order Service] | 507.339.5296 | Mowing the North Dallas and surrounding areas!</title>
 		
 		<link rel="stylesheet" type="text/css" href="reset.css" />
 		<link rel="stylesheet" type="text/css" href="styles.css" />
@@ -67,7 +67,7 @@
     <div class="clearer"><!-- --></div>
     <div id="main">
     	<div id="tagline">
-    		<h3>Payment made simple! Problems, questions, or concerns call (214)557-6975</h3>
+    		<h3>Payment made simple! Problems, questions, or concerns call (507) 339-5296</h3>
     	</div>
     	
 		<div id="signUp">
@@ -83,7 +83,7 @@
 				if($_SESSION['orderDeclined']) { ?>
 					<div class="declined">
 						<h4>Im sorry, but the order has been declined.</h4>
-						<p>Your card has not been charged. You may try again, or call (214) 557-6975 to complete your order over the phone.</p>
+						<p>Your card has not been charged. You may try again, or call (507) 339-5296 to complete your order over the phone.</p>
 					</div>
 					<?php
 					unset($_SESSION['orderDeclined']);
@@ -362,7 +362,7 @@
     </div>
     
     <div id="footer">
-    	<p>Richard Lavery | Owner | Timberline Lawn &amp; Landscape | (214) 557-6975 | <a href="mailto:timberlinelawnandlandscape@gmail.com">timberlinelawnandlandscape@gmail.com</a></p>
+    	<p>Richard Lavery | Owner | Timberline Lawn &amp; Landscape | (507) 339-5296 | <a href="mailto:timberlinelawnandlandscape@gmail.com">timberlinelawnandlandscape@gmail.com</a></p>
     	<p><a href="http://networkstrategics.com/" style="text-decoration: none; color: #000;">Payment gateway integration</a> by <a href="http://networkstrategics.com/">Network Strategics</a></p>
     </div>
 </div>

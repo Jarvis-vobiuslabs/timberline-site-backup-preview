@@ -48,7 +48,7 @@ Customer satisfaction is a top priority for Timberline Lawn and Landscape. We ar
 <br />
 
 
-Lawn care prices are based on your total lot size without considering improvements. A comprehensive list is available for properties under 28,000 sq. feet on our lawn care page. For larger properties and landscaping jobs an estimate will be provided. After placing your order we will confirm your lot size on the first service date. If a change in your rate is necessary, we will contact you and make adjustments accordingly. If you do not know your lot size, or cannot find it online, please contact us at (214) 557-6975<br />
+Lawn care prices are based on your total lot size without considering improvements. A comprehensive list is available for properties under 28,000 sq. feet on our lawn care page. For larger properties and landscaping jobs an estimate will be provided. After placing your order we will confirm your lot size on the first service date. If a change in your rate is necessary, we will contact you and make adjustments accordingly. If you do not know your lot size, or cannot find it online, please contact us at (507) 339-5296<br />
 <br />
 
 
