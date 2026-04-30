@@ -4,6 +4,9 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Timberline Dallas — Lawn Mowing & Recurring Service</title>
+  <script type="text/javascript" src="Scripts/iWebSite.js"></script>
+  <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
+  <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
   <meta name="description" content="Timberline Dallas — recurring lawn mowing service. Call (507) 339-5296. Order weekly or biweekly service online." />
   <style>
     :root{
@@ -79,6 +82,25 @@
     .zips code{color:#fff;background:rgba(0,0,0,.25);padding:2px 6px;border-radius:8px;border:1px solid rgba(255,255,255,.08)}
 
     .footer{margin-top:26px;color:#7f8797;font-size:12px;line-height:1.6;border-top:1px solid var(--line);padding-top:14px}
+  
+
+    /* iweb navbar */
+    .iwebNavWrap{margin-top:14px}
+    .iwebNavWrap .navbar{font-family: Arial, sans-serif; font-size: 1em; color: #A1A1A1; margin: 9px 0 6px 0; line-height: 30px;}
+    .iwebNavWrap .navbar-bg{text-align:center}
+    .iwebNavWrap .navbar-bg ul{list-style:none;margin:0;padding:0}
+    .iwebNavWrap li{list-style-type:none;display:inline;padding:0 10px}
+    .iwebNavWrap li a{text-decoration:none;color:#A1A1A1}
+    .iwebNavWrap li a:hover{color:#eee}
+    .iwebNavWrap li.current-page a{color:#fff;font-weight:bold}
+
+    /* mobile dropdown */
+    .navMobile{display:none;margin-top:12px}
+    .navMobile select{width:100%; background:#111827; color:#e5e7eb; border:1px solid rgba(255,255,255,.16); border-radius:12px; padding:12px 12px; font-size:14px; min-height:48px}
+    @media (max-width:860px){
+      .iwebNavWrap{display:none}
+      .navMobile{display:block}
+    }
   </style>
 </head>
 <body>
@@ -100,14 +122,7 @@
       </div>
     </div>
 
-    <div class="nav" style="margin-top:14px; display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
-      <a class="btn secondary" href="Home.html">Legacy Home</a>
-      <a class="btn secondary" href="Lawn_Care.html">Lawn Care</a>
-      <a class="btn secondary" href="Landscaping.html">Landscaping</a>
-      <a class="btn secondary" href="About_Us.html">About Us</a>
-      <a class="btn secondary" href="Terms_of_Service.html">Terms</a>
-      <a class="btn secondary" href="Order_Service.html">Order Service</a>
-    </div>
+    
 
     <div class="hero">
       <div class="card pad">
