@@ -1,206 +1,144 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Timberline Dallas — Lawn Mowing & Recurring Service</title>
+  <meta name="description" content="Timberline Dallas — recurring lawn mowing service. Call (507) 339-5296. Order weekly or biweekly service online." />
+  <style>
+    :root{
+      --bg:#07080b;
+      --panel:#0f1117;
+      --panel2:#121726;
+      --text:#f5f5f6;
+      --muted:#a7afc0;
+      --line:rgba(255,255,255,.10);
+      --accent:#7c3aed;
+      --accent2:#22c55e;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family: Arial, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      background: radial-gradient(1200px 600px at 20% -10%, rgba(124,58,237,.25), transparent 55%),
+                  radial-gradient(900px 500px at 90% 10%, rgba(34,197,94,.18), transparent 55%),
+                  var(--bg);
+      color:var(--text);
+    }
+    a{color:inherit}
+    .wrap{max-width:980px;margin:0 auto;padding:22px 16px 64px}
 
+    .topbar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;}
+    .brand{display:flex;align-items:center;gap:14px;min-width:260px}
+    .logo{
+      width:64px;height:64px;border-radius:14px;overflow:hidden;
+      border:1px solid var(--line);background:#000;
+      flex:0 0 auto;
+    }
+    .logo img{width:100%;height:100%;object-fit:cover;display:block}
+    .brand h1{font-size:16px;margin:0 0 2px 0;letter-spacing:.02em}
+    .brand p{margin:0;color:var(--muted);font-size:12px;line-height:1.35}
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-  <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    
-    <meta name="Generator" content="iWeb 2.0.4" />
-    <meta name="iWeb-Build" content="local-build-20101021" />
-    <meta name="viewport" content="width=700" />
-    <title>Home</title>
-    <link rel="stylesheet" type="text/css" media="screen,print" href="Home.css" />
-    <!--[if IE]><link rel='stylesheet' type='text/css' media='screen,print' href='Home_files/HomeIE.css'/><![endif]-->
-    <script type="text/javascript" src="Scripts/iWebSite.js"></script>
-    <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
-    <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
-    <script type="text/javascript" src="Scripts/iWebImage.js"></script>
-    <script type="text/javascript" src="Home.js"></script>
-      <style type="text/css">
-      /* vobius: readability tweaks */
-      /* vobius: panel cleanup */
-      #id3, #id4, #id5, #id6 { background: transparent !important; }
-      .graphic_textbox_layout_style_default { background: transparent !important; }
-      .paragraph_style_1, .paragraph_style_2, .paragraph_style_3, .paragraph_style_4, .paragraph_style_5 { color: #ffffff !important; }
-      .paragraph_style_2, .paragraph_style_3, .paragraph_style_4 {
-        font-size: 18px !important;
-        line-height: 24px !important;
-        color: #ffffff !important;
-      }
-      .paragraph_style_5 {
-        font-size: 16px !important;
-        line-height: 22px !important;
-      }
-    </style>
-  </head>
-  <body style="background: #000000; margin: 0pt; " onload="onPageLoad();" onunload="onPageUnload();">
-    <div style="text-align: center; ">
-      <div style="margin-bottom: 0px; margin-left: auto; margin-right: auto; margin-top: 0px; overflow: hidden; position: relative; word-wrap: break-word;  background: #000000; text-align: left; width: 700px; " id="body_content">
-        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 0; " id="nav_layer">
-          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
-          <div class="com-apple-iweb-widget-navbar flowDefining" id="widget0" style="margin-left: 35px; margin-top: 0px; position: relative; width: 630px; z-index: 1; ">
-    
-            <div id="widget0-navbar" class="navbar">
+    .actions{display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+    .pill{border:1px solid var(--line);background:rgba(255,255,255,.04);padding:10px 12px;border-radius:999px;font-size:12px;color:var(--muted)}
+    .btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;
+      padding:12px 14px;border-radius:12px;border:1px solid var(--line);
+      text-decoration:none;font-weight:800;font-size:13px;min-height:44px;
+    }
+    .btn.primary{background:linear-gradient(180deg, rgba(124,58,237,.95), rgba(124,58,237,.75));border-color:rgba(124,58,237,.55)}
+    .btn.secondary{background:rgba(255,255,255,.05)}
 
-      
-              <div id="widget0-bg" class="navbar-bg">
+    .hero{margin-top:18px;display:grid;grid-template-columns: 1.1fr .9fr;gap:18px;align-items:stretch}
+    @media (max-width: 860px){.hero{grid-template-columns:1fr}}
 
-        
-                <ul id="widget0-navbar-list" class="navbar-list">
- <li></li> 
-</ul>
-                
-      
-</div>
-              
-    
-</div>
-          </div>
-          <script type="text/javascript"><!--//--><![CDATA[//><!--
-new NavBar('widget0', 'Scripts/Widgets/Navbar', 'Scripts/Widgets/SharedResources', '.', {"current-page-GUID": "B70A2E53-0778-427E-A115-B5A6E30A0842", "path-to-root": "", "isCollectionPage": "NO", "navbar-css": ".navbar {\n\tfont-family: Arial, sans-serif;\n\tfont-size: 1em;\n\tcolor: #A1A1A1;\n\tmargin: 9px 0px 6px 0px;\n\tline-height: 30px;\n}\n\n.navbar-bg {\n\ttext-align: center;\n}\n\n.navbar-bg ul {\n\tlist-style: none;\n\tmargin: 0px;\n\tpadding: 0px;\n}\n\n\nli {\n\tlist-style-type: none;\n\tdisplay: inline;\n\tpadding: 0px 10px 0px 10px;\n}\n\n\nli a {\n\ttext-decoration: none;\n\tcolor: #A1A1A1;\n}\n\nli a:visited {\n\ttext-decoration: none;\n\tcolor: #A1A1A1;\n}\n\n\nli a:hover\n{\n\ttext-decoration: none;\n \tcolor: #eee;\n}\n\n\nli.current-page a\n{\n\ttext-decoration: none;\n\t color: #fff;\n\tfont-weight: bold;\n\n}"});
-//--><!]]></script>
-          <div style="clear: both; height: 0px; line-height: 0px; " class="spacer"> </div>
+    .card{background:linear-gradient(180deg, rgba(255,255,255,.05), rgba(255,255,255,.02));border:1px solid var(--line);border-radius:18px;overflow:hidden}
+    .card.pad{padding:18px 18px 16px}
+
+    .headline{font-size:28px;line-height:1.05;margin:0 0 10px 0;letter-spacing:-.02em}
+    .sub{margin:0 0 14px 0;color:var(--muted);font-size:14px;line-height:1.5}
+
+    .bullets{margin:12px 0 0 0;padding:0;list-style:none;display:grid;gap:10px}
+    .bullets li{display:flex;gap:10px;align-items:flex-start;color:#e9e9ee;font-size:13px;line-height:1.45}
+    .check{width:20px;height:20px;border-radius:6px;background:rgba(34,197,94,.15);border:1px solid rgba(34,197,94,.35);display:flex;align-items:center;justify-content:center;flex:0 0 auto;color:#22c55e;font-weight:900}
+
+    .ctaRow{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+
+    .imgWrap{position:relative;min-height:320px}
+    .imgWrap img{width:100%;height:100%;object-fit:cover;display:block;filter:saturate(1.05) contrast(1.02)}
+    .imgOverlay{position:absolute;left:14px;right:14px;bottom:14px;display:flex;gap:10px;flex-wrap:wrap;}
+    .badge{background:rgba(0,0,0,.55);backdrop-filter: blur(8px);
+      border:1px solid rgba(255,255,255,.14);color:#fff;border-radius:999px;
+      padding:10px 12px;font-size:12px;font-weight:800
+    }
+
+    .section{margin-top:18px}
+    .section h2{font-size:14px;margin:0 0 10px 0;color:#d9dbe5;letter-spacing:.08em;text-transform:uppercase}
+
+    .zips{background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:16px;padding:14px 14px;color:var(--muted);font-size:13px;line-height:1.6}
+    .zips code{color:#fff;background:rgba(0,0,0,.25);padding:2px 6px;border-radius:8px;border:1px solid rgba(255,255,255,.08)}
+
+    .footer{margin-top:26px;color:#7f8797;font-size:12px;line-height:1.6;border-top:1px solid var(--line);padding-top:14px}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="topbar">
+      <div class="brand">
+        <div class="logo">
+          <img src="images/droppedImage.jpg" alt="Timberline Dallas logo" />
         </div>
-        <div style="height: 220px; margin-left: 0px; position: relative; width: 700px; z-index: 10; " id="header_layer">
-          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
-          <div id="id1" style="height: 36px; left: -1px; position: absolute; top: 184px; width: 701px; z-index: 1; " class="style_SkipStroke">
-            <div class="text-content style_External_701_36" style="padding: 0px; ">
-              <div class="style">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style">Welcome to Timberline Lawn and Landscape Call Today! (507) 339-5296</p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div style="height: 185px; width: auto; max-width: 511px;  height: 185px; left: -1px; position: absolute; top: -1px; width: 511px; z-index: 1; " class="tinyText style_SkipStroke_1">
-            <img src="images/droppedImage.jpg" alt="" style="border: none; height: 185px; width: auto; max-width: 511px; " />
-          </div>
-          
-
-
-          <div id="id2" style="height: 182px; left: 512px; position: absolute; top: -1px; width: 188px; z-index: 1; " class="style_SkipStroke_2">
-            <div class="text-content graphic_textbox_layout_style_default_External_188_182" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_1"><br /></p>
-                <p class="paragraph_style_1"><br /></p>
-                <p class="paragraph_style_1">No <br /></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_1">complicated estimates!</p>
-              </div>
-            </div>
-          </div>
+        <div>
+          <h1>Timberline Dallas</h1>
+          <p>Recurring lawn mowing service<br/>Call <strong style="color:#fff;">(507) 339-5296</strong></p>
         </div>
-        <div style="margin-left: 0px; position: relative; width: 700px; z-index: 5; " id="body_layer">
-          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
-          <div style="height: 244px; width: 703px;  height: 240px; left: 0px; position: absolute; top: 525px; width: 699px; z-index: 1; " class="tinyText">
-            <div style="position: relative; width: 699px; ">
-              <img src="images/shapeimage_1.png" alt="" style="height: 244px; left: 0px; margin-left: -2px; margin-top: -2px; position: absolute; top: 0px; width: 703px; " />
-            </div>
-          </div>
-          
+      </div>
+      <div class="actions">
+        <div class="pill">Email: <a href="mailto:timberlinelawnandlandscape@gmail.com" style="color:#fff;text-decoration:none;font-weight:700;">timberlinelawnandlandscape@gmail.com</a></div>
+        <a class="btn secondary" href="Order_Service.html">Intake Form</a>
+        <a class="btn primary" href="Small_Consolidated.html">Order Weekly / Biweekly</a>
+      </div>
+    </div>
 
+    <div class="hero">
+      <div class="card pad">
+        <h2 style="margin:0 0 10px 0;color:#cdd1de;letter-spacing:.08em;text-transform:uppercase;font-size:12px;">Recurring Services</h2>
+        <h1 class="headline">No complicated estimates.<br/>Simple recurring lawn service.</h1>
+        <p class="sub">These are the recurring services we offer. The lawn mowing service includes mowing, edging, trimming, and blowing. Bagging or excessive leaves are extra.</p>
 
-          <div style="height: 355px; width: 340px;  height: 355px; left: 326px; position: absolute; top: 43px; width: 340px; z-index: 1; " class="tinyText style_SkipStroke_3 reflection_0">
-            <img src="images/droppedImage_1.jpg" alt="" style="border: none; height: 355px; width: 341px; " />
-          </div>
-          
+        <ul class="bullets">
+          <li><span class="check">✓</span>Uniformed staff in professional trucks</li>
+          <li><span class="check">✓</span>No contracts</li>
+          <li><span class="check">✓</span>Easy to reach by phone, text, or email</li>
+        </ul>
 
-
-          <div style="height: 321px; width: 224px;  height: 321px; left: 4px; position: absolute; top: -4px; width: 224px; z-index: 1; " class="tinyText">
-            <div style="position: relative; width: 224px; ">
-              <img src="images/left_photo.jpeg" alt="" style="height: 321px; left: 0px; position: absolute; top: 0px; width: 224px; object-fit: cover; object-position: center; " />
-            </div>
-          </div>
-          
-
-
-          <div id="id3" style="height: 29px; left: 322px; position: absolute; top: 192px; width: 349px; z-index: 1; " class="style_SkipStroke_2">
-            <div class="text-content graphic_textbox_layout_style_default_External_349_29" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_2">Uniformed staff in professional trucks........</p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id4" style="height: 46px; left: 322px; position: absolute; top: 129px; width: 349px; z-index: 1; " class="style_SkipStroke_2">
-            <div class="text-content graphic_textbox_layout_style_default_External_349_46" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_3">No Contracts........</p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id5" style="height: 35px; left: 322px; position: absolute; top: 77px; width: 349px; z-index: 1; " class="style_SkipStroke_2">
-            <div class="text-content graphic_textbox_layout_style_default_External_349_35" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_4">Easy to reach via phone, text, or e-mail..</p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id6" style="height: 62px; left: 322px; position: absolute; top: 237px; width: 349px; z-index: 1; " class="style_SkipStroke_2">
-            <div class="text-content graphic_textbox_layout_style_default_External_349_62" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5">These are the Recurring Services we offer:</p>
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5">The Lawn Mowing service includes:</p>
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5">• mowing, edging, trimming, and blowing</p>
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_5">• bagging or excessive leaves are extra</p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div style="height: 64px; width: 306px;  height: 64px; left: 0px; position: absolute; top: 336px; width: 306px; z-index: 1; " class="tinyText">
-            <div style="position: relative; width: 306px; ">
-              <img src="images/shapeimage_3.png" alt="" style="height: 64px; left: 0px; margin-left: 3px; position: absolute; top: 0px; width: 300px; " />
-            </div>
-          </div>
-          
-
-
-          <div class="tinyText" style="height: 33px; left: 19px; position: absolute; top: 312px; width: 268px; z-index: 50; ">
-            <img usemap="#map1" id="shapeimage_4" src="images/shapeimage_4.png" style="border: none; height: 50px; left: -7px; position: absolute; top: -7px; width: 282px; z-index: 60; " alt="Click to Order Service" title="" /><map name="map1" id="map1"><area href="Order_Service.html" title="Order_Service.html" alt="Order_Service.html" coords="7, 7, 275, 40" /></map>
-          </div>
-          
-
-
-          <div id="id7" style="height: 25px; left: -2px; position: absolute; top: 821px; width: 703px; z-index: 9999; cursor: pointer; " class="style_SkipStroke_2" onclick="window.location.href='mailto:timberlinelawnandlandscape@gmail.com';">
-            <!-- Mobile tap fix: overlay link to ensure the whole footer line is tappable -->
-            <a href="mailto:timberlinelawnandlandscape@gmail.com" style="position:absolute; left:0; top:0; width:100%; height:100%; z-index:10000; display:block;"></a>
-            <div class="text-content style_External_703_25" style="padding: 0px; ">
-              <div class="style_1">
-                <p style="padding-bottom: 0pt; padding-top: 0pt; " class="paragraph_style_6"><span class="style_2">  Richard Lavery | Owner | Timberline Lawn &amp; Landscape | (507) 339-5296 | Click here for </span><a class="class1" href="mailto:timberlinelawnandlandscape@gmail.com" title="mailto:timberlinelawnandlandscape@gmail.com" style="position:relative; z-index:9999; display:inline-block; padding:6px 10px;" onclick="window.location.href='mailto:timberlinelawnandlandscape@gmail.com'; return false;">email</a> <span class="style_2">address</span></p>
-              </div>
-            </div>
-          </div>
-          
-
-
-          <div id="id8" style="height: 218px; left: 26px; position: absolute; top: 535px; width: 647px; z-index: 1; " class="style_SkipStroke_2">
-            <div class="text-content graphic_textbox_layout_style_default_External_647_218" style="padding: 0px; ">
-              <div class="graphic_textbox_layout_style_default">
-                <p style="padding-top: 0pt; " class="paragraph_style_7">  Timberline Lawn and Landscape provides a wide range of services in the North Dallas area. Unlike businesses who provide the same service to each customer, Timberline can custom taylor our services to your individual needs and budget. From standard weekly and bi-weekly lawn service to complete lawn and landscape design and maintenance we have a service for you. A beautiful landscape is the #1 factor contributing to a houses apparent value. Call us today to get started brining your landscape to its full potential without breaking the bank! <br /></p>
-                <p class="paragraph_style_7"><br /></p>
-                <p style="padding-bottom: 0pt; " class="paragraph_style_7">  We currently service North Dallas, Lake Highlands, Lakewood, University Park, Highland Park, Uptown, and Preston Hollow. To ensure we service your area please see the zip codes available on the Lawn Service page.<br />
-                <span class="style_2">&nbsp; Zip codes we currently service: 75204, 75025, 75039, 75040, 75044, 75010, 75075, 75244, 75219, 75081, 75082, 75206, 75234, 75205, 75024, 75074, 75209, 75019, 75063, 75093, 75214, 75225, 75006, 75230, 75038, 75023, 75252, 75080, 75229, 75248, 75218, 75094, 75007, 75048, 75098.</span></p>
-              </div>
-            </div>
-          </div>
-          <div style="height: 846px; line-height: 846px; " class="spacer"> </div>
+        <div class="ctaRow">
+          <a class="btn primary" href="Order_Service.html">Start Intake Form →</a>
+          <a class="btn secondary" href="Small_Consolidated.html">Small Weekly / Biweekly →</a>
         </div>
-        <div style="height: 150px; margin-left: 0px; position: relative; width: 700px; z-index: 15; " id="footer_layer">
-          <div style="height: 0px; line-height: 0px; " class="bumper"> </div>
+      </div>
+
+      <div class="card imgWrap">
+        <img src="images/left_photo.jpeg" alt="Lawn care example" />
+        <div class="imgOverlay">
+          <span class="badge">Call Today: (507) 339-5296</span>
+          <span class="badge" style="border-color:rgba(124,58,237,.4)">Online Ordering Available</span>
         </div>
       </div>
     </div>
-  </body>
+
+    <div class="section">
+      <h2>Service Area (ZIP Codes)</h2>
+      <div class="zips">
+        We currently service North Dallas, Lake Highlands, Lakewood, University Park, Highland Park, Uptown, and Preston Hollow.<br/>
+        ZIP codes we currently service: <code>75204</code> <code>75025</code> <code>75039</code> <code>75040</code> <code>75044</code> <code>75010</code> <code>75075</code> <code>75244</code> <code>75219</code> <code>75081</code> <code>75082</code> <code>75206</code> <code>75234</code> <code>75205</code> <code>75024</code> <code>75074</code> <code>75209</code> <code>75019</code> <code>75063</code> <code>75093</code> <code>75214</code> <code>75225</code> <code>75006</code> <code>75230</code> <code>75038</code> <code>75023</code> <code>75252</code> <code>75080</code> <code>75229</code> <code>75248</code> <code>75218</code> <code>75094</code> <code>75007</code> <code>75048</code> <code>75098</code>
+      </div>
+    </div>
+
+    <div class="footer">
+      Timberline Dallas · (507) 339-5296 · <a href="mailto:timberlinelawnandlandscape@gmail.com" style="color:#b7bfce;">Email us</a><br/>
+      Note: This is a modern landing page version of the homepage for preview purposes. Existing legacy pages are still accessible (Home.html, Lawn_Care.html, Landscaping.html, etc.).
+    </div>
+  </div>
+</body>
 </html>
-
-
