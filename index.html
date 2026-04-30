@@ -4,9 +4,7 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Timberline Dallas — Lawn Mowing & Recurring Service</title>
-  <script type="text/javascript" src="Scripts/iWebSite.js"></script>
-  <script type="text/javascript" src="Scripts/Widgets/SharedResources/WidgetCommon.js"></script>
-  <script type="text/javascript" src="Scripts/Widgets/Navbar/navbar.js"></script>
+  
   
   <meta name="description" content="Timberline Dallas — recurring lawn mowing service. Call (507) 339-5296. Order weekly or biweekly service online." />
   <style>
@@ -85,22 +83,16 @@
     .footer{margin-top:26px;color:#7f8797;font-size:12px;line-height:1.6;border-top:1px solid var(--line);padding-top:14px}
   
 
-    /* iweb navbar */
-    .iwebNavWrap{margin-top:14px}
-    .iwebNavWrap .navbar{font-family: Arial, sans-serif; font-size: 1em; color: #A1A1A1; margin: 9px 0 6px 0; line-height: 30px;}
-    .iwebNavWrap .navbar-bg{text-align:center}
-    .iwebNavWrap .navbar-bg ul{list-style:none;margin:0;padding:0}
-    .iwebNavWrap li{list-style-type:none;display:inline;padding:0 10px}
-    .iwebNavWrap li a{text-decoration:none;color:#A1A1A1}
-    .iwebNavWrap li a:hover{color:#eee}
-    .iwebNavWrap li.current-page a{color:#fff;font-weight:bold}
-
-    /* mobile dropdown nav */
-    .navMobile{display:none;margin-top:12px}
-    .navMobile select{width:100%; background:#111827; color:#e5e7eb; border:1px solid rgba(255,255,255,.16); border-radius:12px; padding:12px 12px; font-size:14px; min-height:48px}
+    /* modern nav */
+    .navBar{margin-top:14px; display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap;}
+    .navLinks{display:flex; gap:10px; flex-wrap:wrap; align-items:center}
+    .navLink{padding:10px 12px; border-radius:999px; border:1px solid rgba(255,255,255,.14); background:rgba(255,255,255,.04); color:#e5e7eb; text-decoration:none; font-weight:800; font-size:12px;}
+    .navLink:hover{border-color:rgba(255,255,255,.28); background:rgba(255,255,255,.06)}
+    .navMobileSelect{display:none; width:100%; margin-top:10px}
+    .navMobileSelect select{width:100%; background:#111827; color:#e5e7eb; border:1px solid rgba(255,255,255,.16); border-radius:12px; padding:12px 12px; font-size:14px; min-height:48px}
     @media (max-width:860px){
-      .iwebNavWrap{display:none}
-      .navMobile{display:block}
+      .navLinks{display:none}
+      .navMobileSelect{display:block}
     }
   </style>
 </head>
@@ -149,6 +141,13 @@
           <span class="badge">Call Today: (507) 339-5296</span>
           <span class="badge" style="border-color:rgba(124,58,237,.4)">Online Ordering Available</span>
         </div>
+      </div>
+    </div>
+
+    <div class="section" data-company-paragraph>
+      <h2>About Timberline Dallas</h2>
+      <div class="card pad" style="border-radius:16px;">
+        <p style="margin:0;color:var(--muted);font-size:14px;line-height:1.65;">Timberline Lawn and Landscape provides a wide range of services in the North Dallas area. Unlike businesses who provide the same service to each customer, Timberline can custom taylor our services to your individual needs and budget. From standard weekly and bi-weekly lawn service to complete lawn and landscape design and maintenance we have a service for you. A beautiful landscape is the #1 factor contributing to a houses apparent value. Call us today to get started brining your landscape to its full potential without breaking the bank!</p>
       </div>
     </div>
 
