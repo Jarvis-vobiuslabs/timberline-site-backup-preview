@@ -34,11 +34,14 @@
     .topbar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;}
     .brand{display:flex;align-items:center;gap:14px;min-width:260px}
     .logo{
-      width:64px;height:64px;border-radius:14px;overflow:hidden;
-      border:1px solid var(--line);background:#000;
+      width:220px;max-width:55vw;
+      border-radius:0;
+      overflow:visible;
+      border:0;
+      background:transparent;
       flex:0 0 auto;
     }
-    .logo img{width:100%;height:100%;object-fit:cover;display:block}
+    .logo img{width:100%;height:auto;object-fit:contain;display:block}
     .brand h1{font-size:16px;margin:0 0 2px 0;letter-spacing:.02em}
     .brand p{margin:0;color:var(--muted);font-size:12px;line-height:1.35}
 
@@ -104,7 +107,7 @@
           <img src="images/timberline_dallas_logo.png" alt="Timberline Dallas logo" />
         </div>
         <div>
-          <h1>Timberline Dallas</h1>
+          <h1 style="margin-top:4px;">Timberline Dallas</h1>
           <p>Recurring lawn mowing service<br/>Call (507) 339-5296 (507)-DFW-LAWN</p>
         </div>
       </div>
